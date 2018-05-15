@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragmentsproject.cursoandroid.com.fragmentsproject.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editNomeId"
+            android:layout_marginTop="103dp"
+            android:ems="10"
+            android:hint="Digite seu Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editNomeId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="152dp"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textEmailAddress" />
+
+    </RelativeLayout>
+</FrameLayout>
